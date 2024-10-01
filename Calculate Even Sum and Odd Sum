@@ -1,0 +1,10 @@
+n=list(map(int,input().split()))
+even_sum=[]
+odd_sum=[]
+for i in n:
+    if i%2==0:
+        even_sum.append(i)
+else:
+   odd_sum.append(i)
+print(sum(even_sum))
+print(sum(odd_sum))
